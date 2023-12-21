@@ -1,0 +1,219 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["hi there", "hello"],
+            "responses": ["hello thanks for checking Gym Fitness Bot"],
+            "context": [""]
+        },
+          {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks a lot", "Appreciate it"],
+            "responses": ["You're welcome! If you have any more questions, feel free to ask."]
+          },
+        {
+            "tag": "name",
+            "patterns": ["what is your name","who are you?"],
+            "responses": ["I'm Gym fitness Chatbot","You can call Fitness Bot"],
+            "context": [""]
+        },
+        {
+            "tag": "squat",
+            "patterns": ["how to do squat?", "steps to do squat?"],
+            "responses": ["And gaze up towards the sky lifting. Your chest nice and high as you bend your knees ","sit up"],
+            "context": [""]
+        },
+        {
+          "tag": "bicep",
+          "patterns": ["how to do bicep curls", "how to do hammer curls", "how to do concentration curls"],
+          "responses": [
+            "For bicep curls, stand with a dumbbell in each hand, palms facing forward. Curl the weights towards your shoulders, keeping your elbows close to your body. Lower the weights back down with control.",
+            "To perform hammer curls, hold a dumbbell in each hand with palms facing your body. Curl the weights towards your shoulders, maintaining the hammer grip. Lower the weights back down.",
+            "For concentration curls, sit on a bench with a dumbbell in one hand. Place the back of your arm against your inner thigh and curl the weight towards your shoulder. Lower the weight back down."],
+          "context": [""]
+        },
+        {
+            "tag": "plan",
+            "patterns": ["Can you suggest a workout plan?"],
+            "responses": ["Sure! I can help you with that. What are your fitness goals?"]
+          },
+          {
+            "tag": "muscle_building",
+            "patterns": ["How can I build muscle?", "Tell me about muscle building", "Best exercises for muscle gain"],
+            "responses": ["Muscle building involves a combination of resistance training and proper nutrition...",
+                           "To build muscle, focus on compound exercises like squats, deadlifts, and bench press...",
+                           "Make sure to consume enough protein for muscle repair and growth..."]
+          },
+          {
+            "tag": "diet",
+            "patterns": ["Can you suggest a diet plan?"],
+            "responses": ["I can provide you with a sample diet plan. What are your dietary preferences and restrictions?<br> 1.Weight Lose<br> 2.Weight Gain<br> 3.Muscle building"]
+          },
+          {
+            "tag": "weight_loss",
+            "patterns": ["how to loss a weight ?", "Tell me about diet for weight loss", "What should I eat to lose weight"],
+            "responses": ["1.Lean Proteins:<br><br> >Chicken breast<br>Fish (such as salmon, tuna) <br> >Tofu<br> >Legumes (beans, lentils)<br><br>2.Vegetables:<br><br> >Broccoli<br> >Spinach<br> >Brussels sprouts<br> >Cauliflower<br> >Carrots<br><br> 3.Limit or Avoid:<br><br> >Processed foods<br> >Sugary beverages <br> >Fried foods<br> >Sweets and desserts<br> >White bread and refined grains."]
+},
+{
+  "tag": "gain",
+  "patterns": ["weight gain?"],
+  "responses": ["Healthy Fats:<br><br> >Avocados<br> >Nuts (almonds, walnuts, cashews)<br> >Seeds (sunflower seeds, chia seeds)<br> >Olive oil."],
+  "context": [""]
+},
+{
+  "tag": "build",
+  "patterns": ["Muscle building"],
+  "responses": [">Eggs. Eggs contain high quality protein, healthy fats, and other important nutrients like B vitamins and choline<br> >Meats, poultry, and fish: Sirloin steak, ground beef, pork tenderloin, venison, chicken breast, salmon, tilapia, and cod.<br> >Dairy: Yogurt, cottage cheese, low fat milk, and cheese. Grains: Bread, cereal, crackers, oatmeal, quinoa, popcorn, and rice.."],
+  "context": [""]
+},
+{
+  "tag": "pull",
+  "patterns": ["how to do lat pull"],
+  "responses": ["Grasp the bar with hands slightly wider than shoulder width and knees slightly bent. Keep your elbows straight and focus on pulling the bar to your hips. Your trunk should stay tall and your head up. Hold for 1 or 2 seconds, keeping your shoulder blades back and down."],
+  "context": [""]
+},
+{
+  "tag": "chest",
+  "patterns": ["how to do chest workout"],
+  "responses": ["->here are many chest workouts in there, What type of chest workout you need?<br>1.bench press<br>2.dumbbel press<br>3.cable fly"],
+  "context": [""]
+},
+{
+  "tag": "press",
+  "patterns": ["bench press"],
+  "responses": ["->Flat Bench Press: Lie on your back on a flat bench, grasp the barbell with a slightly wider than shoulder-width grip, and lower it to your chest before pushing it back up."],
+  "context": [""]
+},
+{
+  "tag": "dumbbel",
+  "patterns": ["dumbbel press"],
+  "responses": [" ->Here's a step-by-step guide on how to perform the dumbbell press:<br>  <br>1.Set Up:<br> <br>  >choose a pair of dumbbels that are appropriate for your fitness level.<br>  <br> 2.Position on the Bench:<br><br>   >Plant your feet firmly on the ground.<br>  >Lower yourself onto the bench, making sure your back, head, and buttocks are in contact with the bench.<br>  >Keep your back in a natural arch, not overly arched or flat."],
+  "context": [""]
+},
+{
+  "tag": "ups",
+  "patterns": ["Push Up"],
+  "responses": ["Assume a plank position with your hands placed slightly wider than shoulder-width apart,Lower your body towards the ground by bending your elbows, then push back up to the starting position."],
+  "context": [""]
+},
+{
+  "tag": "fly",
+  "patterns": ["Cable fly"],
+  "responses": ["1.Setup: <br><br>  >Adjust the cable machine to the desired height. Typically, setting the cables at chest height or slightly below works well for cable flys.<br>  >Attach the D-handles or cable attachments to both cables.<br><br> 2.Movement:<br><br> >With a slight bend in your elbows, bring your hands toward each other in a hugging motion.<br> >Imagine you are hugging a large tree.<br> >Focus on squeezing your chest muscles at the center of the movement. "],
+  "context": [""]
+},
+{
+  "tag": "tricep",
+  "patterns": ["how to do tricep?"],
+  "responses": ["Hold a weight in both hands, extending it up overhead. Keep your biceps close to your ears and elbows pointing forward as you lower the weight behind your head until the elbows are at about 90-degree angles. Straighten the arms, contracting the triceps, and then repeat for 1 to 3 sets of 8 to 16 reps."],
+  "context": [""]
+},
+{
+  "tag": "ups",
+  "patterns": ["Push Up"],
+  "responses": ["Assume a plank position with your hands placed slightly wider than shoulder-width apart,Lower your body towards the ground by bending your elbows, then push back up to the starting position."],
+  "context": [""]
+},
+{
+  "tag": "shoulder",
+  "patterns": ["how to do shoulder press", "how to do lateral raises", "how to do front raises"],
+  "responses": [
+    "For shoulder press, sit or stand with a dumbbell in each hand at shoulder level. Press the weights overhead, extending your arms fully. Lower the weights back to shoulder level in a controlled manner.",
+    "To perform lateral raises, stand with a dumbbell in each hand by your sides. Lift the weights out to the sides until your arms are parallel to the ground. Lower the weights back down slowly.",
+    "For front raises, hold a dumbbell in each hand in front of your thighs. Lift the weights straight in front of you until your arms are parallel to the ground. Lower the weights back down with control."],
+  "context": [""]
+},
+{
+  "tag": "weight_gain",
+  "patterns": ["how to gain a weight ?", "Tell me about diet for weight gain", "What should I eat to gain weight"],
+  "responses": ["Eating sufficient protein is required to gain muscle weight instead of just fat. If you're trying to gain weight, aim for 0.7-1 grams of protein per pound of body weight (1.5 - 2.2 grams of protein per kilogram). 2. Eat Repeat Eat: Eat at least 3 meals per day and make sure to eat plenty of fat and carb."]
+},
+{
+  "tag": "diet_foods",
+  "patterns": ["What are good diet foods?", "Tell me about healthy snacks", "Suggest some protein-rich foods"],
+  "responses": ["Sure! Good diet foods include lean proteins like chicken and fish, whole grains, fruits, vegetables, and healthy fats. Protein-rich foods include eggs, Greek yogurt, and legumes. Would you like more specific recommendations or recipes?"]
+},
+{
+  "tag": "meal_plan",
+  "patterns": ["Can you suggest a meal plan?", "I need a healthy meal plan", "Tell me about a balanced diet"],
+  "responses": ["Certainly! A balanced meal plan includes a mix of proteins, carbohydrates, and fats. Consider meals with grilled chicken, quinoa, and a variety of colorful vegetables. What are your dietary preferences or restrictions?"]
+},
+{
+  "tag": "calorie_counting",
+  "patterns": ["How do I count calories?", "Calorie tracking tips", "Tell me about a calorie deficit"],
+  "responses": ["Calorie counting is a method to manage weight. Calculate your daily needs and create a deficit for weight loss. There are apps to help track. Need more guidance on this or other diet topics?"]
+},
+{
+  "tag": "cheat_meals",
+  "patterns": ["Are cheat meals okay?", "Tell me about cheat days", "Can I indulge occasionally?"],
+  "responses": ["Having an occasional cheat meal is fine, but moderation is key. Balance it with healthy choices. Would you like tips on maintaining a balanced approach to cheat meals?"]
+},
+{
+  "tag": "hydration",
+  "patterns": ["How important is hydration?", "Water intake tips", "Tell me about staying hydrated"],
+  "responses": ["Hydration is crucial for overall health and fitness. Drink plenty of water throughout the day. Consider infused water or herbal teas for variety. Anything specific you'd like to know about hydration?"]
+},
+{
+  "tag": "protein_sources",
+  "patterns": ["What are good sources of protein?", "Protein-rich foods", "Tell me about plant-based protein"],
+  "responses": ["Good sources of protein include lean meats, poultry, fish, eggs, dairy products, and plant-based options like beans, lentils, and tofu."]
+},
+{
+  "tag": "healthy_fats",
+  "patterns": ["What are healthy fats?", "Sources of good fats", "Include fats in the diet"],
+  "responses": ["Healthy fats can be found in avocados, nuts, seeds, and olive oil. They are important for brain function and overall health."]
+},
+{
+  "tag": "snack_ideas",
+  "patterns": ["Healthy snack options", "Quick and nutritious snacks", "Snacking tips"],
+  "responses": ["Choose healthy snacks like fruits, vegetables, Greek yogurt, or a handful of nuts. Avoid sugary snacks for better energy levels."]
+},
+{
+  "tag": "low_carb_diet",
+  "patterns": ["Benefits of a low-carb diet", "Foods to include in a low-carb diet", "Low-carb diet tips"],
+  "responses": ["A low-carb diet may help with weight loss. Include foods like lean proteins, non-starchy vegetables, and healthy fats while minimizing refined carbohydrates."]
+},
+{
+  "tag": "bodybuilding_tips",
+  "patterns": ["suggest bodybuilding tips"],
+  "responses": [
+    "What type of Building you Need<br> 1.Bulking<br> 2.Cutting."]
+},
+{
+  "tag": "Cut",
+  "patterns": ["Cutting"],
+  "responses": [
+    "1.Caloric Deficit:<br><br> ->Create a caloric deficit by consuming fewer calories than your body expends. A moderate deficit is typically recommended, around 500 calories below your maintenance level.<br><br>2.High-Intensity Weight Training:<br><br> ->Continue with weight training, focusing on maintaining intensity and lifting heavy. This helps signal to your body that muscle mass needs to be preserved.<br><br> 3.Monitor Progress:<br><br> ->Track your progress by regularly assessing your body composition, strength levels, and overall fitness. Adjust your nutrition and training plan based on your results."]
+},
+{
+  "tag": "bulk",
+  "patterns": ["Bulking"],
+  "responses": [
+    "1.Strength Training:<br> <br> ->Focus on progressive resistance training. Lift heavy weights and gradually increase the load over time. <br> ->Compound exercises such as squats, deadlifts, bench press, and overhead press are effective for stimulating muscle growth.<br><br> 2.Structured Workout Plan:<br><br> ->Follow a well-structured workout plan that includes a mix of compound and isolation exercises.<br> ->Train each muscle group with sufficient volume and frequency to promote growth.<br><br> 3.Rest and Recovery:<br><br> ->Allow adequate time for rest and recovery. Muscles need time to repair and grow. Ensure you get enough sleep, as it plays a crucial role in the recovery process."]
+},
+{
+  "tag": "nutrition_for_bodybuilding",
+  "patterns": [
+    "Nutrition for muscle gain",
+    "Bodybuilding diet tips",
+    "What to eat for bodybuilding"
+  ],
+  "responses": [
+    "Ensure a high-protein diet with sources like chicken, fish, eggs, and plant-based proteins.",
+    "Carbohydrates are essential for energy, and healthy fats support overall health and hormone balance."
+  ]
+},
+{
+  "tag": "bodybuilding_exercises",
+  "patterns": [
+    "Effective bodybuilding exercises",
+    "Best muscle-building workouts",
+    "Bodybuilding exercise recommendations"
+  ],
+  "responses": [
+    "Include compound exercises like deadlifts, squats, and bench press in your workout routine.",
+    "Isolation exercises such as bicep curls and tricep extensions can target specific muscle groups for added definition."
+  ]
+}
+
+    ]
+  }
